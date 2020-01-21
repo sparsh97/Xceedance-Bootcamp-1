@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simple Selectors</title>
+
+        <style>
+        h2 {
+            color: red;
+            text-align: center;
+            border-style: dotted;
+            border-bottom-color: blue;
+            border-left-style: hidden;
+            border-right-style: hidden;         
+        }
+
+        .highlights {
+            font-size: 20px;
+            font-weight: bold;
+            font-style:inherit;
+            background-color:white;
+            opacity: .4;
+        }
+
+        #mainPoint {
+            font-size: 24px;
+            font-weight: bold;
+            background-color:lightgray;
+            opacity: .4;
+            border-left: 5px solid blue;
+        }
+
+        p,h1 {
+            color: blue;
+            background-color: white;
+            text-align: center;
+           
+        }
+
+        body {
+            background-image: url("img3.jpg");
+        }
+
+        </style>
+    </head>
+    <body>
+        <h1>Simple Selectors(h1)</h1>
+        <h2>Subheading 1(h2)</h2>
+
+        <p class="highlight"> Lorem ipsum dolor sit amet, conscetur adipisng elit est maxime aperiam blanditis reprehendrit voluptatem quia quas nesciunt amet atque temporibus quod harum swqui coluplate peerferdis cum as eos  </p>
+        <p class="highlights"> Paragraph with attribute class = "highlight. Lorem ipsum dolor sit amet, conscetur adipisng elit est maxime aperiam blanditis reprehendrit voluptatem quia quas nesciunt amet atque temporibus quod harum swqui coluplate peerferdis cum as eos &quot;</p>
+
+        <h2>Subheading (h2)</h2>
+
+        <p> Lorem ipsum dolor sit amet, conscetur adipisng elit est maxime aperiam blanditis reprehendrit voluptatem quia quas nesciunt amet atque temporibus quod harum swqui coluplate peerferdis cum as eos </p>
+        <div>This is the main point of the entire article. so, attribute 
+            <span id="mainPoint"> id = Main</span> </div>
+        </div>
+    </body>
+</html>
