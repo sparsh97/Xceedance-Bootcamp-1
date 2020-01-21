@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html>  
+    <head>
+        <title> Simple Form</title>
+    </head>
+
+    <body>
+        <h2>Registration Form</h2>
+            First Name: <input type="text" name="fname" autocomplete="on"/> <br>
+            Last Name: <input type="text" name="lname" autocomplete="on"/> <br>
+            Gender: <select name="gender" >
+                <option value="">Male</option>
+                <option value="female">Female</option>
+            </select> <br>
+
+            Course: <select name="course" >
+                <optgroup label="Technical">
+                    <option value="dev">Developer</option>
+                    <option value="des">Designer</option>
+                </optgroup>
+
+                <optgroup label="Non-technical" >
+                    <option value="support"> Tech Support </option>
+                    <option value="bpo">Call Support</option>
+                </optgroup>
+                </select> <br>
+
+            Visa:  <input type="radio" name="visa" value="yes" /> Yes
+            <input type="radio" name="visa" value="no" /> No <br>
+
+            <button>
+                Submitrrr
+                </button>
+    </body>
+</html>
